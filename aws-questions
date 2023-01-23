@@ -1,0 +1,8 @@
+What is an AWS edge location?
+
+Edge location is a physical location where aws has its servers that are used to stores cdn caching. 
+Edge locations are used to provide low latency access to the data. For example if you have your data stored in a S3 bucket that is in India,
+but some percentage of your traffic is also coming from Austrelia/USA. 
+In this case aws will store cache of your data in one of the Austrelia/USA edge locations so whenever request comes from Austrelia/USA 
+it will be served from cache edge location that is in USA and request don't need to reach in India. 
+Thus it will provide low latency access to your data and end users will have better experience.
