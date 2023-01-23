@@ -6,3 +6,7 @@ but some percentage of your traffic is also coming from Austrelia/USA.
 In this case aws will store cache of your data in one of the Austrelia/USA edge locations so whenever request comes from Austrelia/USA 
 it will be served from cache edge location that is in USA and request don't need to reach in India. 
 Thus it will provide low latency access to your data and end users will have better experience.
+
+
+What is aws cloudtrail?
+ANS ==>   https://www.opsramp.com/guides/aws-monitoring-tool/cloudtrail-vs-cloudwatch/#:~:text=CloudWatch%20is%20a%20monitoring%20service,activity%20in%20your%20AWS%20account.&text=CloudWatch%20monitors%20applications%20and%20infrastructure,actions%20in%20the%20AWS%20environment.
