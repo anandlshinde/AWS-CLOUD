@@ -78,7 +78,7 @@ What approach to transcoding a large number of individual video files adheres to
 
 For which audting process does AWS have sole responsibility?
     A. AWS IAM roles
-    B. physical Security
+    B. physical Security => Correct
     C. Amazon S3 bucket policies
     D. AWS Cloudtrail Logs
 
