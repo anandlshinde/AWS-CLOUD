@@ -1,0 +1,718 @@
+
+
+Which aws service should be used for read/write of constantly changing data ? (Choose two)
+    A. Amazon Glacier
+    B. Amazon RDS    => Correct 
+    C. AWS Snowball
+    D. Amazon RedShift
+    E. Amazon EFS  => Correct 
+
+What is one of the advantages of the Amazon RDS?
+    A. It simplifies relational database adminstration task => Correct
+    B. It provides 99.9999999999% reliability and durability
+    C. It automatically scales database for loads
+    D. It enabled users to dynamically adjust CPU and RAM resources.
+
+A Customer needs to run mysql database that easily scales.
+Which AWS service should they use?
+    A. Amazon Aurora   => Correct
+    B. Amazon RedShift
+    C. Amazon DynamoDB
+    D. Amazon ElasticCache
+
+
+Which of the following components of the AWS Global infrastructure consist of one or more discrete data 
+centers interconnected through low latency links?
+    A. Availability zone  => Correct
+    B. Edge Location
+    C. Region
+    D. Private Networking
+
+Which of the following is shared control between the customer and AWS?
+    A. Providing key for Amazon S3 client-side encryption.
+    B. Configuration of an Amazon EC2 instance
+    C. Environmental Controls of physical AWS data centers 
+    D. Awareness and tarining  => Correct
+
+How many Availability zones should compute resources  be provisioned across to achive high Availability?
+    A. A minimum of one 
+    B. A minimum of two => Correct
+    C. A minimum of three
+    D. A minimum of four or more
+
+One of the advantages to moving infrastructure from on-primises data center to the AWS cloud is : 
+    A. It allows the business to eliminate IT bills.
+    B. It allows the business to put a server in each customer's data center
+    C. It allows the business to focus on business activities  => Correct
+    D. It allows the business to leave servers unpatched
+
+What is the lowest -cost, durable storage option for retaining database backups for immediate retrival?
+    A. Amazon S3  => Correct
+    B. Amazon Glacier
+    C. Amazon EBS
+    D. Amazon EC2 instance store
+
+Which of the following is a fast and reliable NoSql database service?
+    A. Amazon RedShift
+    B. Amazon RDS
+    C. Amazon DynamoDB  => Correct
+    D. Amazon S3
+
+What is an example of agility in the aws cloud?
+    A. Access to multiple instance types
+    B. Access to managed services
+    C. Using consolidated billing to produce one billing
+    D. Decresed acquisition time for new compute resources.  => Correct
+
+Which service should a customer use to consolidate and centrally manage multiple AWS accounts?
+    A. AWS IAM 
+    B. AWS Organizations => Correct
+    C. AWS schema conversion tool
+    D. AWS Config
+
+What approach to transcoding a large number of individual video files adheres to AWS architecture.
+    A. Using many instances in parallel  => Correct
+    B. Using a single large instance during off-peack hours
+    C. Using dedicated hardware
+    D. Using a large GPU instance type
+
+For which audting process does AWS have sole responsibility?
+    A. AWS IAM roles
+    B. physical Security
+    C. Amazon S3 bucket policies
+    D. AWS Cloudtrail Logs
+
+which of the following service falls within the category of AWS serverless platform?
+    A. Elastic load balancer  => this is used for managing server loads distribution of incoming requests
+    B. AWS lambda  => Correct
+    C. Amazon EMR  => This is big data platform used for processing huge amount of data
+    D. AWS mobile hub => This is basically used for testing, monitoring mobile application
+
+When architecting cloud applications, which of the following is a key design pricipal?
+    A. Provision capacity for peak load
+    B. Use the largest instance possible
+    C. Use the scrum developer process
+    D. Implement elasticity => Correct
+
+Which of the following IAM entities is associated with an access key id and secret access key when using AWS CLI?
+    A. IAM Group
+    B. IAM ROle 
+    C. IAM policies
+    D. IAM user => Correct
+
+which of the minimum AWS support plan that allow for one hour target response time for support cases?
+    A. Basic 
+    B. Developer
+    C. Business   => Corrects
+    D. Enterprise
+
+
+How should a customer forcast the future costs for running a new web application?
+    A. Amazon Cloud Watch billing aleram
+    B. AWS cost and uses report
+    C. AWs simle monthly calculator => Correct
+    D. Amazon Aurora Backtrack
+
+Amazon RDS offers which of following benifits over traditional database management?
+    A. AWS manages the database types.
+    B. AWS automatically scale up instance types on demand
+    C. AWS manages the data sorted in Amazon RDS tables.
+    D. AWS manages the maintenance of the operating system. => Correct
+
+
+Which AWs service can be used to mannualy launch instances based on resource requirements?
+    A. Amazon EBS
+    B. Amazon ECS
+    C. Amazon S3 
+    D. Amazon EC2  => Correct
+
+Which will help a company perform   a cost benifit analysis of migrating to the aws Cloud?
+    A. AWS total Cost of ownership(TCO) calculator  => Correct
+    B. Cost Expoler
+    C. AWS Trusted Advisor
+    D. AWS simple monthly calculator
+
+Which AWS managed service is used to host database?
+    A. AWS data pipeline
+    B. AWS Artifacts
+    C. Amazon RDS  => Correct
+    D. AWS Batch
+
+Which design pricipal for cloud architecture are recommended when re-architecting a large monolithic application (Choose two)?
+    A. Design Scalability  => Correct
+    B. Use fixed servers 
+    C. Use mannual monitoring
+    D. Implement loose coupling => Correct
+
+On benifit of On-demand Amazon EC2 pricing is?
+    A. paying only for time used   => Correct
+    B. Paying a daily rate regardless  of time used
+    C. The ability to bid for a lower hourly rate 
+    D. Pre-paying for instances and paying a lower hourly rate 
+
+When is the benifit  of spot instance for a company?
+    A. When instance should not be stopped
+    B. When dedicated capacity needed
+    C. When there are mission critical workload
+    D. When there is flexibility in when an application needs to run. =>Correct
+
+If a company need to audit the change management of AWS resources, which of the following AWS service should the company use?
+    A. Trusted Advisor
+    B. AWS Config  => Correct
+    C. Amazon Inspector
+    D. Amazon CloudWatch
+
+Where should a company got to search software listing from independent software vendors to find, test, buy
+and deploy software that runs on AWS?
+    A. AWS Artifacts
+    B. Amazon Lumberyard
+    C. Amazon CloudSearch
+    D. AWS MaeketPlace  => Correct
+
+Which of the following AWS services can be used to serve large amounts of online video content
+with the lowest possible latency (Choose two)?
+    A. Amazon CLoudFront  => Correct
+    B. Amazon Elastic File system
+    C. Amazon Glacier
+    D. Amazon S3  => Correct
+
+A director has been tasked with investingating hybrid cloud architecture. The company currently accesses AWS 
+over the public internet. Which service will facilitate private hybrid connectivity?
+    A. AWS web application firewall
+    B. Amazon S3 Transfer Acceleration
+    C. AWS direct connect  => Correct
+    D. Amazon VPC NAT Gateway  
+
+Which of the following is an AWS managed Domain Name System web service?
+    A. Amazon Neptune
+    B. Amazon Lightsail
+    C. Amazon Route 53  => Correct
+    D. Amazon S3 
+
+Which of folowing best describe the AWS pricing model? 
+    A. Pay as you go  => Correct
+    B. Co-Location
+    C. Planned
+    D. Variable cost  => Correct
+
+Which AWS service should be used for long term, low cost storage of data backup?
+    A. AWS Snowball
+    B. AWS EBS 
+    C. Amazon Glacier  => Correct
+    D. Amazon RDS 
+
+A Customer wants to deploy a new application and needs to choose an AWS  Region. 
+Which of the following factors could influence the customer's decision? (Choose two)
+    A. Reduced latency to users   => Correct
+    B. The application's presentation in the local language
+    C. Cooling cost in hotter climates  
+    D. Data Sovereignty compliance  => Correct
+
+Which AWS service would you use to obtain compliance reports and certificates?
+    A. AWS certificate manager
+    B. AWS lambda
+    C. Amazon Inspector
+    D. AWS Artifact  => Correct
+
+Which of the following is a cloud architectural design priciple?
+    A. Build monolithic system
+    B. Use commercial database software
+    C. Loosely couple components  => Correct
+    D. Scale up, not out.
+
+What AWS service should be used to centrally manage AWS access policies across multiple accounts?
+    A. AWS Config
+    B. AWS service catalogue
+    C. AWS Organizations  => Correct
+    D. AWS trusted Advisor 
+
+Under the shared responsibility model, which of the following is a shared  control between a customer and AWS?
+    A. Physical Controls
+    B. Zone Security
+    C. Data center auditing
+    D. Patch management => Correct
+
+Which priciples are used  to architect applications for reliability on the AWS Cloud? (Choose two)
+    A. Design for automated failuer recovery  => Correct
+    B. Use multiple Availability zones  => Correct
+    C. Test for moderate demand to ensure reliability
+    D. Manage changes via documented process
+
+When performing a cost analysis that supports physical isolation of a customer workload,
+Which compute hosting model should  be accounted for in the Total Cost of ownership?
+    A. Reserved instance
+    B. Dedicated Hosts  => Correct
+    C. On-Demand instances
+    D. Spot instances
+
+Which feature of AWs cloud will support an international company's requirment for low latency to all of it's customer?
+    A. High Availability
+    B. Pay as you go pricing
+    C. Global reach  => Correct
+    D. Fault Tolerance  
+
+Which benifit of the AWS  cloud supports matching the supply of resources with changing workload demand?
+    A. Reliability
+    B. Elasticity  => Correct
+    C. Fault Tolerance
+    D. Security
+
+Which service provides a vitually unlimited amount of online high durable object storage?
+    A. Amazon Elastic File system
+    B. Amazon Neptune
+    C. Amazon S3  => Correct
+    D. Amazon Red RedShift
+
+How many Availability zones should compute resources  be provisioned across to achive  high Availability?
+    A. Minimum one 
+    B. Minimum Two => Correct
+    C. Minimum three
+    D. Minimum four 
+
+Whcih of the following are categories of AWS Trusted Advisor (Choose two)?
+    A. Instance usage 
+    B. Fault Tolerance => Correct
+    C. Storage capacity
+    D. Performance  => Correct
+
+Which machanism allows developers to access AWS services  from application code?
+    A. AWS Config
+    B. AWs CodePipeline
+    C. AWS software Development kit(SDK) => Correct
+    D. AWS management console 
+
+Which AWS services should be used for read/write of constantly changing data? (Choose two)
+    A. Amazon Glacier
+    B. Amazon RedShift
+    C. Amazon RDS  => Correct
+    D. Amazon EFS  => Correct
+
+A Customer is using AWS multiple accounts with seprate billing. How can the customer take advantages 
+of volume discounts with minimal impact to the AWS resources?
+    A. Sign up for 3 years of reserved instance pricing up front.
+    B. Sign up AWS for Enterprise support plan to get volume discounts
+    C. Create one global AWS account and move all AWS resources to that account 
+    D. Use the consolidated billing feature from AWS Organizations  => Correct
+
+Which service provides a hybrid storage service that enables on-primises applications to 
+seamlessly use cloud storage?
+    A. AWS Snowball 
+    B. AWS storage Gateway  => Correct
+    C. Amazon Elastic Block Storage 
+    D. Amazon S3 
+
+Which AWS service or feature  allows a company to visualize, understand, and manage AWS costs and usage over time?
+    A. AWS cost Expoler  => Correct
+    B. AWS Budget
+    C. AWS Organizations
+    D. Consolidated Billing 
+
+Which Amazon AWS EC2 instance  pricing model can provide discounts of up to 90%?
+    A. On-Demand instance  
+    B. Reserved instance
+    C. Dedicated Hosts
+    D. Spot instance  => Correct
+
+
+Which of the following services  have distributed denial  of service mitigation features? (Choose two)
+    A. Amazon DynamoDB
+    B. AWS WAF   => Correct
+    C. Amazon Inspector
+    D. Amazon CLoudFront  => 
+
+Which of the following are features  of Amazon CloudWatch Logs? (Choose two)
+    A. Real time monitoring  => Correct
+    B. Provided at no charge
+    C. Free Amazon ElasticSearch service Analytics  
+    D. Adjustable retention  => Correct
+
+Which AWS support plan includes  a dedicated Technical account manager?
+    A. Basic
+    B. Developer
+    C. Business
+    D. Enterprise  => Correct
+
+Which AWS service provides a simple and scalable shared file storage solution for use with 
+Linux based AWS and on-premises servers?
+    A. Amazon Glacier
+    B. Amazon S3 
+    C. Amazon EBS
+    D. Amazon EFS  => Correct
+
+Which service enables customers to audit and monitor changes in AWS resources?
+    A. Amazon Inspector
+    B. Amazon GuardDuty
+    C. Amazon trusted Advisor
+    D. AWS Config  => Correct
+
+Which AWS IAM feature is used to associate a set  of permissions with multiple users?
+    A. Password policies
+    B. Access keys
+    C. Multi factor authentication
+    D. Groups  => Correct
+
+Which of the following benifits of the AWS cloud ? (Choose two)
+    A. unlimited uptime
+    B. Agility   => Correct
+    C. Elasticity  => Correct
+    D. Capital expenses
+
+Which storage service can be used as a low-cost options for hosting static website?
+    A. Amazon DynamoDB
+    B. Amazon Glacier
+    C. Amazon Elastic File system
+    D. Amazon S3   => Correct
+
+Which AWS service is a content delivery network that securely delivers data, video and applications 
+to users globally with low latency and high speed?
+    A. Amazon Direct connect 
+    B. AWS ClodFormation
+    C. Amazon CLoudFront   => Correct
+    D. Amazon PinPoint
+
+A company wants to reduce the physical compute footprint that developers  use to run code 
+Which service would meet that need by enabling serverless architecture?
+    A. Ama Neptune
+    B. AWS Lambda  => Correct
+    C. Amazon DynamoDB
+    D. AWS CodeCommit
+
+A gaming company needs to deploy infrastructure as code  by automating the provisioning process.
+Which AWS offering shou be used?
+    A. AWS cloudformation  => Correct
+    B. Amazon CLoudFront
+    C. Amazon Inspector
+    D. Amazon GuardDuty
+
+A company needs to deploy a schemaless database without administrating the underlying hardware 
+or database software . Which AWS service should the company use?
+    A. Amazon RDS
+    B. Amazon Aurora
+    C. Amazon DynamoDB => Correct
+    D. Amazon S3 
+
+An e-commerce company needs to rapidly migrate exabyte-scale datasets from on-primises to AWS
+Which service should the company use?
+    A. AWS Snowball
+    B. AWS SnowMobile => Correct
+    C. AWS Batch  
+    D. AWS Direct connect 
+
+A network engineer needs to monitor IP traffic to and from Amazon EC2 instance. 
+Which Amazon Vertual Private Cloud feature should the company use?
+    A. VPC flow Logs  => Correct
+    B. IP flow Logs
+    C. Inspector
+    D. Amazon GuardDuty
+
+Amazon CLoudFront can offer which of the services?
+    A. Automatic distribution of incoming traffic across EC2 instances
+    B. Securly deliver videos, images and API to global audiance with low latency => Correct
+    C. Automatic vertical or horizontal scaling of compute resources. 
+    D. Speed up cloud provisioning with infrastructure as code.
+
+A business intelligence company needs to include dashboards into the reporting process.
+Which service should the company use?
+    A. RDS
+    B. Athena
+    C. QuickSight  => Correct
+    D. RedShift
+
+Which AWS service can automatically discover and scan Amazon EC2 instances and container images residing 
+in Amazon Elastic container registery (Amazon ECR ) for software vulnerabilities and unintented network exposure?
+    A. Amazon macie
+    B. Amazon Inspector  => Correct
+    C. AWS WAF
+    D. Snowball
+
+A transpotation company wants to deconstruct a monolithic design into a microservice.
+Which architecture  is demontrated?
+    A. Tightly coupled
+    B. Loosely coupled => Correct
+    C. Serverless
+    D. Stateless    
+
+An IT manager wants to deterine who removed an EC2 instance few day back.
+Which AWS service shoul be used?
+    A. AWS trusted Advisor
+    B. CloudWatch
+    C. Cloudtrail  => Correct
+    D. AWS shield
+
+A Solutions architect needs a disaster recovery plan and want to replicate the data across different 
+geographica Location
+Which of the following meets the goal?
+    A. AWS regions  => Correct
+    B. Edge Location
+    C. AWS Organizations
+    D. Different IAM group
+
+A company to establish a dedicated 10 Gbps network connection between on-primises and AWS.
+Which AWS feature should be the company use?
+    A. Route 53
+    B. Snowball
+    C. Direct connect  => Correct
+    D. AWS VPN
+
+A tourism  company needs hybrid  storage solution that allows on-primises applications to use AWS 
+cloud storage in a  seamless fashion?
+    A. Storage Gateway => Correct
+    B. SnowMobile
+    C. S3
+    D. Elastic Block Storage (EBS)
+
+A Solution architect needs to determine the supported databases for Amazon RDS?(Choose two)
+    A. MariaDB  => Correct
+    B. Sybase  
+    C. MongoDB
+    D. PostgreSQL  =>  Correct
+
+A company needs to schedule and execute hundreds of computing tasks.
+Which AWS service should you use?
+    A. AWS Lambda
+    B. AWS Batch  => Correct
+    C. AWS S3 
+    D. Amazon SQS
+
+An Automobile company needs to enable internet boud traffic  to reach  a VPC.
+Which AWS service should be used?
+    A. AWS direct connect
+    B. AWS WAF
+    C. NAT Gateway
+    D. Internet Gateway  => Correct
+
+Which AWS service  should an e-commerce company use for scalable data warehousing solution?
+    A. AWS Lambda
+    B. Amazon S3
+    C. Amazon RedShift  => Correct
+    D. Amazon DynamoDB
+
+Which AWS service should a system adminstration use to prevent SQL Injection and cross site scripting?
+    A. AWS WAF => Correct
+    B. Amazon CloudWatch
+    C. Amazon GuardDuty
+    D. Amazon Neptune
+
+Security admin needs to obtain AWS compliance and certificate report.
+Where can these reports be obtained?
+    A. AWS Glue
+    B. AWS Artifact  => Correct
+    C. Inside S3 bucket
+    D. AWS Secrets manager
+
+A startup company needs  a security service which can detect and categorize sensitive data or 
+intellectual property automatically.
+Which AWS service should the company use?
+    A. AWS Shield 
+    B. AWS lambda
+    C. Amazon macie  => Correct
+    D. Amazon Inspector
+
+Which of the following services offer compute resources in AWS? (Choo two)
+    A. Amazon Glacier deep Archive
+    B. AWS Lambda  => Correct
+    C. AWS CodePipeline
+    D. Amazon Elastic container service (ECS)  => Correct
+
+In AWS shared responsibility model, which of these security related tasks are customers responsibility?
+    A. Firewall Configuration at hardware level
+    B. Securing physical infrastructure at data center
+    C. Configuring networking components at hardware level
+    D. Maintaining server side encryption  => Correct
+
+AWS Shield can protect against which type of attacks?
+    A. IAM permissions
+    B. Data encryption
+    C. DDoS protection  => Correct
+    D. S3 lifecycle policy
+
+A Photography company needs highly available and scalable DNS web service.
+Which AWS service should the company use?
+    A. Amazon CLoudFront
+    B. Amazon Route 53   => Correct
+    C. Amazon Direct connect
+    D. AWS Fargate
+
+As per operational excellence in the cloud, which of the following is a critical architectural 
+concept when designing cloud applications?
+    A. Should have  tightl coupled components
+    B. Store data and backup in same Availability zone
+    C. Design for failure  => Correct
+    D. Should not use multi threading
+
+Your manager needs an estimation of the cost of deploying new application on AWS.
+What should you use?
+    A. Use Amazon Kinesis
+    B. Use QuickSight
+    C. Use AWs simple monthly calculator  => Correct
+    D. Use AWS cost Expoler
+
+Customers needs to comply with contractual and regulatory data security obligations by using dedicated 
+hardware appliance which enables to generate and use own encryption keys on the AWS cloud.
+Which AWS service should be used?
+    A. AWS Snowball
+    B. AWS Cloud hardware security module (HSM)  => Correct  
+    C. AWS Key management service(KMS)
+    D. AWS secret manager
+
+A customer operates an Amazon EC2 Linux instance on-demand for 7 hours, 7 minutes and 7 seconds.
+How long will the cusotmer be charged?
+    A. 7 hours, 7 minutes
+    B. 7 hours, 7 minutes, 7 seconds  => Correct
+    C. 7 hours, 8 minutes
+    D. 8 hours 
+
+You want resource supply to be matched to changing workload demands.
+Which cloud feature is demonstrated?
+    A. High Availability
+    B. Security
+    C. Reliability
+    D. Elasticity  => Correct
+
+Which AWS raltional database should you use which can support both MYSql and PostgreSQL?
+    A. Amazon Aurora  => Correct
+    B. Amazon RedShift
+    C. Amazon DynamoDB
+    D. Amazon Neptune
+
+What are the benifits for business with customers across the world using AWS Cloud? (Choos two)
+    A. Translate third party website interfaces into multiple languages using Amazon Translate
+    B. Reduce latency using CLoudFront via multiple edge Locations  => Correct
+    C. Distribute traffic across multiple AWS regions around the world using elastic load balancer
+    D. Deploy applications in mutiple AWS region to reduce latency and increse Availability  => Correct
+
+What is the benifit  of AWS pay as you go model?
+    A. Reduction in operational expenditure
+    B. Require upfront payment for AWS services
+    C. Reduction in capital expenditure  => Correct
+    D. Applicable only for certain AWS services like lambda, s3 And EC2
+
+Which AWS service  should you use to create and manage AWS users and groups by providing them with secure 
+access to AWS resources?
+    A. AWS firewall
+    B. AWS Direct connect
+    C. AWS IAM  => Correct
+    D. AWS KMS 
+
+A company needs an AWS offering which can provide permanent storage for file system?
+    A. EC2 instance store
+    B. Amazon S3   
+    C. ElastiCache  
+    D. Elastic Block store (EBS) => Correct
+
+A security engineer is tasked to prevent  network traffic from reaching a particular  instance.
+Which of the following service should be used? (Choose two)
+    A. Direct connect
+    B. Security Groups => Correct
+    C. CloudWatch 
+    D. Network ACL  => Correct
+
+A trainee want to host  highly available and scalable web application who has minimum knowledge in AWS
+technologies like load balancer, VPC and autoscaling.
+Which AWS service would help to manage the deployment automatically for the trainee?
+    A. AWS cloudformation
+    B. AWS Elatic Beanstalk  => Correct
+    C. AWS CodeCommit
+    D. CodeDeploy
+
+A company want to generate billing alaram.
+Which AWs service can help achive the goal?
+    A. Amazon CloudWatch => Correct
+    B. Amazon QuickSight
+    C. AWS trusted Advisor
+    D. AWS lambda
+
+Which deployment technique  allows customers to completely exchange capital expenditures for 
+operational expenditures?
+    A. hybrid
+    B. On-primises
+    C. infrastructure as a service
+    D. Cloud => Correct
+
+A company need an AWS free tool or service which can identify unutilized Amazon EC2 instances and 
+idle Amazon RDS DB instances?
+    A. AWS CloudWatch  
+    B. AWS Budget
+    C. AWS trusted Advisor  => Correct
+    D. Cost Expoler
+
+What is the advantages of consolidated billing in AWS?
+    A. Automatically tags resources
+    B. Numerous billing option per account
+    C. Automated IAM integration
+    D. Volume pricing qualification  => Correct
+
+What is the advantages of Amazon EC2 instances over on-primise server? (choose two)
+    A. Physical host are accessible
+    B. Pay as you go pricing option => Correct
+    C. Automation
+    D. Agility  => Correct
+
+A security admin needs to prepare a report which contains the following:
+-Check if MFA is enabled for AWS account root user
+-Amazon  S3 bucket permission status
+Which service can help get these information in one place?
+    A. AWS trusted Advisor report => Correct
+    B. Amazon CloudWatch
+    C. Amazon Cloudtrail
+    D. QuickSight dashboard
+
+A security engineer needs risk audit of an AWS account by monitoring and documenting user activity 
+and     source IP addresses.
+Which AWs service can help meet this goal?
+    A. AWS shield Advanced
+    B. AWS trusted Advisor
+    C. Amazon Cloudtrail  => Correct
+    D. AWS-Ray 
+
+Which AWS service or feature can automatically scale as per online traffice demand?
+    A. Load balancer
+    B. AWS CodePipeline
+    C. Auto scaling => Correct
+    D. Direct connect. 
+
+A company wants to develop new applocation workload on the AWS cloud instead of on-primises resources.
+What cost benefit will the  company get using AWS cloud?
+    A. Custom built Python or node.js code
+    B. Free pen test for security 
+    C. Hardware required to support new application workloads => Correct
+    D. IT staff cost
+
+As per shared responsibility model, which of the following is AWS's responsibility?
+    A. Data encryption
+    B. Enforcing MFA
+    C. Patching operating system
+    D. Auditing physical data center assets => Correct
+
+A solutions architect wants to achieve high Availability for Amazon RDS.
+Which feature will help to meet the goal?
+    A. Reserved instances
+    B. Same Availability zone
+    C. Multiple Availability zone => Correct
+    D. Provisioned IOPS
+
+Which AWS managed service can be used to connect an on-primises data center to AWS network?(Choose two)
+    A. Internet Gateway
+    B. AWS VPN  => Correct
+    C. Amazon Route 53 => Correct
+    D. AWS ditect connect 
+
+Which of the following managed service can be used to host database?
+    A. AWS Batch
+    B. Amazon RDS => Correct
+    C. AWS CodeDeploy
+    D. AWS Artifact
+
+Which AWS service can be used for serving static websites?
+    A. Route 53
+    B. AWS X-Ray 
+    C. Amazon S3   => Correct
+    D. Amazon Kinesis data streams
+
+An e-commerce company uses an application which is executed on many EC2 instances which are concurrently 
+access a shared file system.
+Which AWS storage service should be used?
+    A. AWS Artifact
+    B. Amazon S3 
+    C. Amazon EBS
+    D. Amazon EFS  => Corr
